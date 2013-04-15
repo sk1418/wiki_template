@@ -1,0 +1,185 @@
+body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ol,button,input,textarea {margin: 0; padding: 0;}
+header,footer,article,section,nav,menu,hgroup {display:block;}
+body {font-family:"Microsoft Yahei","Tahoma", "Helvetica", "Arial", "SimSun",sans-serif; font-size: 10.5pt;line-height:1.6; background:#1a1a1a url(bg.png) repeat;}
+/* For titles */ 
+h1 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    padding-left: .5em;
+    font-size: 20pt;
+    border-left: 8px solid #4CBCE7;
+    border-bottom: 2px solid #4cbce7;
+    font-weight: bold;
+}
+h2 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 20pt;
+    margin-bottom: 15pt;
+    padding-left: .5em;
+    font-size: 16pt;
+    border-left: 4px solid #4cbce7;
+    border-bottom: 1px solid #4cbce7;
+    font-weight: bold;
+}
+h3 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 16pt;
+    margin-bottom: 12pt;
+    padding-left: .5em;
+    font-size: 14pt;
+    border-left: 2px solid #4cbce7;
+    border-bottom: 1px dashed #4cbce7;
+    font-weight: bold;
+}
+h4 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 12pt;
+    font-weight: bold;
+}
+h5 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 10pt;
+    margin-bottom: 5pt;
+    font-size: 11pt;
+    font-weight: bold;
+}
+h6 {
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    margin-top: 5pt;
+    font-size: 10.5pt;
+    font-weight: bold;
+}
+img {border:none;background-color:#1a1a1a;}
+a img:hover {background:none; border:none;}
+a {color:#07b; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+p {
+	margin-bottom:15px;
+	font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 10.5pt;
+}
+ul,li {
+	padding:0;
+	margin-left:15pt;
+	font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 11pt;
+}
+input,textarea,button {outline:none;}
+pre{
+	font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	font-size: 10.5pt;
+}
+code {
+    font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    padding: 0px 3px;
+    display: inline-block;
+    color: #52595d;
+    border: 1px solid #ddd;
+    background-color: #F7F6F3;
+}
+/* table */
+/*   { */
+/*   border-collapse:collapse; */
+/*   } */
+/*  */
+/* table ,th, td{ */
+/* 	font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace; */
+/* 	font-size: 11.5pt; */
+/* 	padding: 5px; */
+/* 	border: 1px solid #F6882D; */
+/* } */
+
+th { 
+font: bold 11px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #4f6b72; 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+border-top: 1px solid #C1DAD7; 
+letter-spacing: 2px; 
+text-transform: uppercase; 
+text-align: left; 
+padding: 6px 6px 6px 12px; 
+background: #CAE8EA  no-repeat; 
+} 
+th.nobg { 
+border-top: 0; 
+border-left: 0; 
+border-right: 1px solid #C1DAD7; 
+background: none; 
+} 
+
+td { 
+border-right: 1px solid #C1DAD7; 
+border-bottom: 1px solid #C1DAD7; 
+background: #fff; 
+font-size:11px; 
+padding: 6px 6px 6px 12px; 
+color: #4f6b72; 
+} 
+
+
+td.alt { 
+background: #F5FAFA; 
+color: #797268; 
+} 
+
+th.spec { 
+border-left: 1px solid #C1DAD7; 
+border-top: 0; 
+background: #fff no-repeat; 
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+} 
+
+th.specalt { 
+border-left: 1px solid #C1DAD7; 
+border-top: 0; 
+background: #f5fafa no-repeat; 
+font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif; 
+color: #797268; 
+} 
+
+
+li {
+    line-height: 150%;
+}
+red {
+    color: red;
+}
+.note, .warning, .caution, .important {
+    font-size: 14pt;
+    color: red;
+    background-color: #ffee40;
+}
+.todo {font-weight: bold; background-color: #f0ece8; color: #a03020;}
+.justcenter {text-align:center;}
+#wrap,#footer_box {background:#fcfbf7 url(mainbg.jpg) repeat; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1); width:800px; margin:30px auto; padding:40px 50px;}
+#content {color:#555; /*text-shadow:1px 1px #fff;*/ margin-top:10px;font-size:10.5pt;}
+#header {text-align:center; color:#5d6673;}
+#logo {margin:20px auto 20px;}
+#logo a {text-align:center; color:#4cbce7;}
+#toolbar {height:24px; font-size:12px;}
+#post_list section {border-bottom:1px dashed #bbb; margin-bottom:20px;}
+.meta {font-size:12px; margin-bottom:20px; color:#999; display:block;}
+blockquote {border:1px dashed #ccc; border-radius:5px; background:#fafafa; padding:10px; margin:10px 0; font-size:11px;}
+blockquote p:last-child {margin-bottom:0;}
+#nopage {text-align:center; padding:180px 0 100px; background:url(images/404.png) no-repeat center 70px;}
+#footer_box {font-size:12px;}
+#footer {margin-bottom:20px; text-align:center; font-size:12px; color:#5d6673; text-shadow:-1px -1px #000;}
+#footer a {color:#5d6673;}
+
+#vim_logo,#me_logo, #deplate_logo, #license, #adsense2, #js51la, #rss {
+ display: inline-block;
+ margin: 2px;
+ vertical-align: middle;
+}
+  
