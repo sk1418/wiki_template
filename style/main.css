@@ -1,31 +1,14 @@
-
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('cmunss.ttf');
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('cmunsx.ttf');
-    font-weight: bold;
-  }
-  @font-face {
-    font-family: "Computer Modern";
-    src: url('cmunsi.ttf');
-    font-style: italic, oblique;
-  }
- 
-
 body,h1,h2,h3,h4,h5,h6,p,blockquote,dl,dt,dd,ol,button,input,textarea {margin: 0; padding: 0;}
 header,footer,article,section,nav,menu,hgroup {display:block;}
 /*body {font-family:"Microsoft Yahei","Tahoma", "Helvetica", "Arial", "SimSun",sans-serif; font-size: 10.5pt;line-height:1.6; background:#1a1a1a url(bg.png) repeat;}*/
-body {font-family: "Computer Modern","Microsoft Yahei","Tahoma", "Helvetica", "Arial", "SimSun",sans-serif;
+body {font-family:"Microsoft Yahei","Tahoma", "Helvetica", "Arial", "SimSun",sans-serif;
 	font-size: 10.5pt;
 	line-height:1.6;
 	background:#1a1a1a url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAIAAADZSiLoAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo0N0MwODE2NUFBMzIxMUUwQTU4MkZFNEMxNzVFMEE3MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0N0MwODE2NkFBMzIxMUUwQTU4MkZFNEMxNzVFMEE3MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjQ3QzA4MTYzQUEzMjExRTBBNTgyRkU0QzE3NUUwQTcwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ3QzA4MTY0QUEzMjExRTBBNTgyRkU0QzE3NUUwQTcwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+EiJIjAAAABxJREFUeNpikZFR+ff3JxMzOxOEApFQipkdIMAAvj4MZUL53fEAAAAASUVORK5CYII=') repeat;
 }
 /* For titles */ 
 h1 {
-    font-family:"Computer Modern", "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
     margin-top: 20pt;
     margin-bottom: 20pt;
     padding-left: .5em;
@@ -92,7 +75,7 @@ ul,li {
 input,textarea,button {outline:none;}
 pre{
 	font-family: "Monaco", "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-	font-size: 10.5pt;
+	font-size: 10pt;
 }
 code {
     font-family: "Monaco","Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
@@ -184,7 +167,7 @@ red {
 .todo {font-weight: bold; background-color: #f0ece8; color: #a03020;}
 .justcenter {text-align:center;}
 #wrap,#footer_box {
-background:#fcfbf7 url('mainbg.jpg') repeat;
+	background:#fcfbf7 url(../images/mainbg.jpg) repeat;
 	border-radius:8px;
 	box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1);
 	width:1280px;

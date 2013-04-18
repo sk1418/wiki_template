@@ -3,7 +3,10 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>%title%</title>
-		<link rel="stylesheet" type="text/css" href="%root_path%style/main.css" />
+		<link rel="stylesheet" type="text/css" href="%root_path%template/style/main.css" />
+		<link type="text/css" rel="stylesheet" href="%root_path%template/style/shCore.css"/>
+		<link type="text/css" rel="stylesheet" href="%root_path%template/style/shCoreRDark.css"/>
+
 	</head>
 	<body >
 		<header id="header">
@@ -15,4 +18,17 @@
 			</div>
 		</div>
 	</body>
+		<!--For code highlighting-->
+		<script type="text/javascript" src="%root_path%template/js/shCore.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushBash.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushCss.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushJava.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushJScript.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushPython.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushSql.js"></script>
+		<script type="text/javascript" src="%root_path%template/js/shBrushXml.js"></script>
+
+		<script type="text/javascript">
+			SyntaxHighlighter.all();
+		</script>
 </html>
