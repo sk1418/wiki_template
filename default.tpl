@@ -19,21 +19,24 @@
 		<script type="text/javascript" src="%root_path%template/js/shBrushXml.js"></script>
 
 		<script type="text/javascript">
-			
+
 			$(document).ready( function(){
-						SyntaxHighlighter.all();
+					SyntaxHighlighter.all();
 					});
 
-		</script>
-	</head>
-	<body >
-		<header id="header">
-			<div id="logo" style="font-size: 22pt;text-align:center;"><a href="#">Kent's Wiki</a></div>
-		</header>
-		<div id="wrap">
-			<div id="content">
-				%content%
-			</div>
-		</div>
-	</body>
-</html>
+				</script>
+			</head>
+			<body >
+				<header id="header">
+				<div id="logo" style="font-size: 22pt;text-align:center;"><a href="#">Kent's Wiki</a></div>
+				</header>
+				<div id="wrap">
+					<div id="content">
+						%content%
+					</div>
+				</div>
+				<div id="footer">
+					<a href="http://www.vim.org" target="_blank"><img border="0" src="%root_path%template/images/vimLogo.png" alt="Created with Vim" height="36" width="90"></a>
+				</div>
+			</body>
+		</html>
