@@ -75,7 +75,7 @@ ul,li {
 input,textarea,button {outline:none;}
 pre{
 	font-family: "Monaco", "Arial", "DejaVu Sans", "Bitstream Vera Sans", "Lucida Sans", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-	font-size: 10pt;
+	font-size: 11pt;
 }
 code {
     font-family: "Monaco","Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
