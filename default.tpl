@@ -6,17 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="%root_path%template/style/main.css" />
 		<link type="text/css" rel="stylesheet" href="%root_path%template/style/shCore.css"/>
 		<link type="text/css" rel="stylesheet" href="%root_path%template/style/shCoreRDark.css"/>
-	</head>
-	<body >
-		<header id="header">
-			<div id="logo" style="font-size: 22pt;text-align:center;"><a href="#">Kent's Wiki</a></div>
-		</header>
-		<div id="wrap">
-			<div id="content">
-				%content%
-			</div>
-		</div>
-	</body>
+		<script type="text/javascript" src="%root_path%template/js/jquery.js"></script>
 		<!--For code highlighting-->
 		<script type="text/javascript" src="%root_path%template/js/shCore.js"></script>
 		<script type="text/javascript" src="%root_path%template/js/shBrushVim.js"></script>
@@ -29,6 +19,21 @@
 		<script type="text/javascript" src="%root_path%template/js/shBrushXml.js"></script>
 
 		<script type="text/javascript">
-			SyntaxHighlighter.all();
+			
+			$(document).ready( function(){
+						SyntaxHighlighter.all();
+					});
+
 		</script>
+	</head>
+	<body >
+		<header id="header">
+			<div id="logo" style="font-size: 22pt;text-align:center;"><a href="#">Kent's Wiki</a></div>
+		</header>
+		<div id="wrap">
+			<div id="content">
+				%content%
+			</div>
+		</div>
+	</body>
 </html>

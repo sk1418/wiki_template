@@ -79,6 +79,7 @@ pre{
 }
 code {
     font-family: "Monaco","Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+	font-size: 10pt;
     -webkit-border-radius: 1px;
     -moz-border-radius: 1px;
     border-radius: 1px;
@@ -87,10 +88,12 @@ code {
     background-clip: padding-box;
     padding: 0px 3px;
     display: inline-block;
-    color: #52595d;
+	color: #666666
     border: 1px solid #ddd;
-    background-color: #F7F6F3;
+	/*background-color: #1b2426 !important;*/
+	background-color: #cfcfcf !important;
 }
+
 /* table */
 /*   { */
 /*   border-collapse:collapse; */
@@ -156,6 +159,9 @@ color: #797268;
 li {
     line-height: 150%;
 }
+
+
+
 red {
     color: red;
 }
