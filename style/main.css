@@ -173,10 +173,11 @@ red {
 .todo {font-weight: bold; background-color: #f0ece8; color: #a03020;}
 .justcenter {text-align:center;}
 #wrap,#footer_box {
-	background:#fcfbf7 url(../images/mainbg.jpg) repeat;
+	background:#fcfbf7;
+       /*url(../images/mainbg.jpg) repeat;*/
 	border-radius:8px;
 	box-shadow:0 0 10px rgba(0,0,0,1),0 4px 0 rgba(255,255,255,.8),0 5px 0 rgba(100,100,100,.4),0 8px 0 rgba(255,255,255,0.4),inset 0 0 1px rgba(255,255,255,1);
-	width:1280px;
+	width:1000px;
 	margin:30px auto;
 	padding:40px 50px;
 }
@@ -200,3 +201,43 @@ blockquote p:last-child {margin-bottom:0;}
  vertical-align: middle;
 }
   
+
+
+.tocWrap {
+    position: fixed; 
+    width: 250px;
+    z-index: 100;
+    top: 6%;
+    left: 3%;
+    display: none;
+}
+
+.toc {
+    display: none;
+    overflow: auto;
+    overflow-x: hidden;
+    border: 1px solid #4CBCE7;
+    border-radius: 0 0 1px 1px;
+    -moz-border-radius: 0 0 1px 1px;
+    color: #999;
+	background: #fcfbf7;
+    padding: 12px;
+    box-shadow: 0 1px 8px #000;
+    -webkit-box-shadow: 0 1px 8px #000;
+    -moz-box-shadow: 0 1px 8px #000;
+}
+
+.tocWrap .toggler {
+    text-align: center;
+    font-size: 12px;
+    background: #4CBCE7;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    color: #122;
+    position: relative;
+    z-index: 901;
+    cursor: pointer;
+}
+.toc ul {
+    margin: 0;
+}
