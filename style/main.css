@@ -181,7 +181,7 @@ red {
 	margin:30px auto;
 	padding:40px 50px;
 }
-#content {color:#555; /*text-shadow:1px 1px #fff;*/ margin-top:10px;font-size:10.5pt;}
+#content {color:#333; margin-top:10px;font-size:10.5pt;}
 #header {text-align:center; color:#5d6673;}
 #logo {margin:20px auto 20px;}
 #logo a {text-align:center; color:#4cbce7;}
